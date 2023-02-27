@@ -21,7 +21,7 @@ public class SecurityConfig {
     public UserDetailsService userDetailsService() {
        /* UserDetails admin = Users
                 .withUsername("Kunal")
-                .password(passwordEncoder().encode("Kunal"))
+                .password(passwordEncoder().encode("Kunal")) // HardCoded Users
                 .roles("ADMIN")
                 .build();
 

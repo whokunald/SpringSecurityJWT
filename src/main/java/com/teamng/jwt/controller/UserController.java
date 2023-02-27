@@ -1,5 +1,6 @@
 package com.teamng.jwt.controller;
 
+import com.teamng.jwt.entity.AuthRequest;
 import com.teamng.jwt.entity.UserEntity;
 import com.teamng.jwt.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
